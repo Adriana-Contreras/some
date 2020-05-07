@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">hito3TareaFinal</string>
+
+    <!--pantalla uno-->
+    <string name="title1">Bienvenido</string>
+    <string name="desc1">Manejo de un onboarding utilizando adapters, fragments y activities</string>
+
+    <!--pantalla dos-->
+    <string name="title2">SOME</string>
+    <string name="desc2">Esta app contiene registro por login y una calculadora </string>
+    <string name="nombre">Univ: Adriana Contreras</string>
+
+    <!--pantalla tres-->
+    <string name="title3">Inscripcion</string>
+    <string name="desc3">Inscribe a tu equipo desde la App</string>
+
+    <!--pantalla cuatro-->
+    <string name="textemail">Email</string>
+    <string name="textpassword">Password</string>
+
+
+    <!--botonera-->
+    <string name="next">Siguiente</string>
+    <string name="back">Atrás</string>
+    <string name="done">Finalizar</string>
+
+    <!--botones-->
+    <string name="login">LOGIN</string>
+    <string name="register">REGISTER</string>
+
+
+
+
+    <!--operadores -->
+    <string name="multi"> * </string>
+    <string name="divi"> / </string>
+    <string name="resta"> - </string>
+    <string name="suma"> + </string>
+    <!--B1 -->
+    <string name="R"> R </string>
+    <string name="X2"> x2 </string>
+    <string name="C"> C </string>
+    <string name="fraccion"> 1/x </string>
+    <string name="flecha"> 🡠 </string>
+    <string name="c2">C2 </string>
+    <string name="botonultimo"> +/- </string>
+    <string name="punto"> .  </string>
+    <string name="igual"> = </string>
+    <string name="porcentaje"> % </string>
+
+
+    <!--numeros -->
+    <string name="num9">9 </string><!--B1 -->
+    <string name="num8">8 </string><!--B1 -->
+    <string name="num7">7 </string><!--B1 -->
+    <string name="num6">6 </string>
+    <string name="num5">5 </string>
+    <string name="num4">4 </string>
+    <string name="num3">3 </string>
+    <string name="num2">2 </string>
+    <string name="num1">1 </string>
+    <string name="num0">0 </string>
+
+
+
+</resources>

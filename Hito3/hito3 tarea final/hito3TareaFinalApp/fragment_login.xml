@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Onboarding.login"
+    android:orientation="vertical"
+    android:background="@drawable/bgg">
+
+
+    <ImageView
+        android:id="@+id/imgIns"
+        android:layout_width="wrap_content"
+        android:layout_height="390dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/imge"
+        android:layout_marginEnd="100dp"
+        />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="40dp">
+
+        <EditText
+            android:id="@+id/etemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:fontFamily="@font/baumans"
+            android:gravity="left"
+            android:hint="@string/textemail"
+            android:textColorHint="@color/colorAccent"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp" />
+        <EditText
+            android:id="@+id/etpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:fontFamily="@font/baumans"
+            android:gravity="left"
+
+            android:hint="@string/textpassword"
+            android:textColorHint="@color/colorAccent"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/idlogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:background="@drawable/ovalo"
+            android:text="@string/login"
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp">
+
+        </Button>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:background="@drawable/ovalo"
+            android:text="@string/register"
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp">
+
+        </Button>
+
+
+
+        <LinearLayout
+            android:id="@+id/layoutNextlogin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/textPrevlogin"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|start"
+                android:layout_marginStart="8dp"
+                android:layout_marginBottom="2dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:focusable="true"
+                android:fontFamily="@font/baumans"
+                android:gravity="bottom|start"
+                android:text="@string/back"
+                android:textColor="@android:color/background_light"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textDonelogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="2dp"
+                android:gravity="bottom|end"
+                android:layout_weight="1"
+                android:text="@string/done"
+                android:textColor="@android:color/background_light"
+                android:textSize="20sp"
+                android:fontFamily="@font/baumans"
+                android:clickable="true"
+                android:focusable="true"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>
