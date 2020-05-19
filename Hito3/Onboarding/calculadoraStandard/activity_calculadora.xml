@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgg"
+    tools:context=".Onboarding.calculadora">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical"
+        >
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculadora Standard"
+        android:textSize="30dp"
+        android:fontFamily="@font/baumans"
+        />
+
+        <EditText
+
+            android:id="@+id/pantalla"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ovalo"
+            android:layout_margin="27dp"
+            android:gravity="center"
+            android:padding="15dp"
+            android:textSize="20sp"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            >
+
+            <Button
+                android:id="@+id/porcentaje"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/porcentaje"
+                android:background="@drawable/ovalo_botones"/>
+
+            <Button
+                android:id="@+id/numraiz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/R"
+                android:background="@drawable/ovalo_botones"/>
+            <Button
+                android:id="@+id/cuadrado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/X2"
+                android:background="@drawable/ovalo_botones"/>
+            <Button
+                android:id="@+id/fraccion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fraccion"
+                android:background="@drawable/ovalo_botones"/>
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+        <Button
+        android:id="@+id/numc2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/c2"
+        android:background="@drawable/ovalo_botones"/>
+        <Button
+            android:id="@+id/numc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/C"
+            android:background="@drawable/ovalo_botones"/>
+        <Button
+            android:id="@+id/eliminar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/flecha"
+            android:background="@drawable/ovalo_botones"/>
+        <Button
+            android:id="@+id/div"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/divi"
+            android:background="@drawable/ovalo_botones"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+        <Button
+            android:id="@+id/num7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/num7"
+            android:background="@drawable/ovalo_botones"/>
+        <Button
+            android:id="@+id/num8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/num8"
+            android:background="@drawable/ovalo_botones"/>
+        <Button
+            android:id="@+id/num9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/num9"
+            android:background="@drawable/ovalo_botones"/>
+    <Button
+        android:id="@+id/multi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/multi"
+        android:background="@drawable/ovalo_botones"/>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:id="@+id/num4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/num4"
+                android:background="@drawable/ovalo_botones"/>
+            <Button
+                android:id="@+id/num5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/num5"
+                android:background="@drawable/ovalo_botones"/>
+
+
+            <Button
+                android:id="@+id/num6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/num6"
+                android:background="@drawable/ovalo_botones"/>
+            <Button
+                android:id="@+id/resta2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/resta"
+                android:background="@drawable/ovalo_botones"/>
+        </LinearLayout>
+
+            <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            >
+                <Button
+                    android:id="@+id/num1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/num1"
+                    android:background="@drawable/ovalo_botones"/>
+                <Button
+                    android:id="@+id/num2"
+                    android:layout_width="84dp"
+                    android:layout_height="47dp"
+                    android:text="@string/num2"
+                    android:background="@drawable/ovalo_botones"/>
+
+                <Button
+                    android:id="@+id/num3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/num3"
+                    android:background="@drawable/ovalo_botones"/>
+                <Button
+                    android:id="@+id/sum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/suma"
+                    android:background="@drawable/ovalo_botones"/>
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+                <Button
+                android:id="@+id/masmenos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/botonultimo"
+                android:background="@drawable/ovalo_botones"/>
+
+                <Button
+                    android:id="@+id/num0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/num0"
+                    android:background="@drawable/ovalo_botones"/>
+
+                <Button
+                    android:id="@+id/punto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/punto"
+                    android:background="@drawable/ovalo_botones"/>
+
+                    <Button
+                        android:id="@+id/igual"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/igual"
+                        android:background="@drawable/ovalo_botones"/>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
+</LinearLayout>
+
+
+
