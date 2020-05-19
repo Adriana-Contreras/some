@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Onboarding.pagSelectApp"
+    android:orientation="vertical"
+    android:background="@drawable/bg3">
+
+    <ImageView
+        android:id="@+id/imgWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="-190dp"
+        android:layout_marginEnd="-100dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img3" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="5dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:fontFamily="@font/aclonica"
+            android:gravity="center"
+            android:layout_marginLeft="40dp"
+            android:text="@string/basica"
+            android:textColor="@android:color/holo_orange_light"
+            android:textSize="20dp" />
+        <Button
+            android:id="@+id/desc1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:fontFamily="@font/aclonica"
+            android:background="@drawable/ovalo"
+            android:text="@string/botondes"
+            android:textColor="@android:color/holo_orange_light">
+
+        </Button>
+        <Button
+            android:id="@+id/s1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/ovalo"
+            android:fontFamily="@font/aclonica"
+            android:text="@string/botonselec"
+            android:textColor="@android:color/holo_orange_light">
+
+        </Button>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="5dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:fontFamily="@font/aclonica"
+            android:gravity="center"
+            android:layout_marginLeft="30dp"
+            android:text="@string/cientica"
+            android:textColor="@android:color/holo_orange_light"
+            android:textSize="20dp"
+            />
+        <Button
+            android:id="@+id/desc2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9dp"
+            android:gravity="center"
+            android:fontFamily="@font/aclonica"
+            android:background="@drawable/ovalo"
+            android:text="@string/botondes"
+            android:textColor="@android:color/holo_orange_light">
+
+        </Button>
+        <Button
+            android:id="@+id/s2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/ovalo"
+            android:fontFamily="@font/aclonica"
+            android:gravity="center"
+            android:text="@string/botonselec"
+            android:textColor="@android:color/holo_orange_light">
+
+        </Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="5dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:fontFamily="@font/aclonica"
+            android:gravity="center"
+            android:layout_marginLeft="30dp"
+            android:text="@string/custom"
+            android:textColor="@android:color/holo_orange_light"
+            android:textSize="20dp"/>
+
+        <Button
+            android:id="@+id/desc3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/ovalo"
+            android:fontFamily="@font/aclonica"
+            android:text="@string/botondes"
+            android:textColor="@android:color/holo_orange_light">
+
+        </Button>
+        <Button
+            android:id="@+id/s3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/ovalo"
+            android:fontFamily="@font/aclonica"
+            android:text="@string/botonselec"
+            android:textColor="@android:color/holo_orange_light">
+        </Button>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/selectapp1"
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/ovalo2"
+            android:fontFamily="@font/aclonica"
+            android:textAlignment="center"
+            android:hint="Select App"
+            android:textColor="@android:color/holo_orange_light">
+
+        </EditText>
+        <EditText
+            android:id="@+id/user1"
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/ovalo2"
+            android:fontFamily="@font/aclonica"
+            android:textAlignment="center"
+            android:hint="Username"
+            android:textColor="@android:color/holo_orange_light">
+
+        </EditText>
+        <Button
+            android:id="@+id/i1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:background="@drawable/ovalo"
+            android:fontFamily="@font/aclonica"
+            android:text="@string/ingresar"
+            android:layout_marginBottom="8dp"
+            android:textColor="@android:color/holo_orange_light">
+
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>

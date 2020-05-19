@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Onboarding.calcu_custom">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/custom"
+            android:textColor="@color/colororange"
+            android:textSize="35dp"
+            />
+
+            <TextView
+                android:id="@+id/tvShowSelect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/holo_orange_light"
+                android:textSize="15sp"/>
+
+
+            <TextView
+                android:id="@+id/tvShowUsername"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/holo_orange_light"
+                android:textSize="15sp"/>
+
+            <EditText
+            android:id="@+id/pantalla"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="27dp"
+            android:background="@drawable/ovalo2"
+            android:gravity="center"
+            android:padding="15dp"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            >
+            <Button
+                android:id="@+id/raiz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="√"
+                android:background="@drawable/ovalo"/>
+
+            <Button
+                android:id="@+id/cuadrado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="x2"
+                android:background="@drawable/ovalo"/>
+            <Button
+                android:id="@+id/xy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="xy"
+                android:textSize="13sp"
+                android:background="@drawable/ovalo"
+                />
+            <Button
+                android:id="@+id/factorial"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="fac"
+                android:background="@drawable/ovalo"/>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+
+            <Button
+                android:id="@+id/num1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:background="@drawable/ovalo"/>
+            <Button
+                android:id="@+id/num2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2"
+                android:background="@drawable/ovalo"/>
+
+            <Button
+                android:id="@+id/num3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3"
+                android:background="@drawable/ovalo"/>
+
+            <Button
+                android:id="@+id/num4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4"
+                android:background="@drawable/ovalo"/>
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            >
+
+
+            <Button
+                android:id="@+id/num0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:background="@drawable/ovalo"/>
+            <Button
+                android:id="@+id/shift"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:text="SHIFT"
+                android:background="@drawable/colorovalo" />
+
+            <Button
+                android:id="@+id/eliminar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ovalo"
+                android:text="C" />
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            >
+            <Button
+                android:id="@+id/resta1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:background="@drawable/ovalo"/>
+            <Button
+                android:id="@+id/suma1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+"
+                android:background="@drawable/ovalo"/>
+            <Button
+                android:id="@+id/div1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="/"
+                android:background="@drawable/ovalo"/>
+            <Button
+                android:id="@+id/multi1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="X"
+                android:background="@drawable/ovalo"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" >
+            <Button
+                android:id="@+id/igual1"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:text="="
+                android:background="@drawable/ovalo"/>
+        </LinearLayout>
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

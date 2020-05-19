@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">defensaHito3Adri</string>
+
+    <!--pantalla uno-->
+    <string name="title1">SOME</string>
+    <string name="desc111">Manejo de events, functions, activities y navegation entre screens</string>
+
+    <!--pantalla dos-->
+    <string name="title2">DEFENSA HITO 3 </string>
+    <string name="desc222">Univ: Adriana Contreras  </string>
+    <string name="desc22222">Getion: 2020 </string>
+
+    <!--pantalla tres-->
+    <string name="basica">Basica</string>
+    <string name="cientica">Cientifica</string>
+    <string name="custom">Custom</string>
+    <string name="botondes">Desc</string>
+    <string name="botonselec">Select</string>
+
+
+    <!--pantalla cuatro-->
+    <string name="textemail">Email</string>
+    <string name="textpassword">Password</string>
+
+    <!--botonera-->
+    <string name="next">next</string>
+    <string name="skip">Skip</string>
+    <string name="done">Finalizar</string>
+    <string name="ingresar">Ingresar</string>
+
+
+    <!--botones-->
+    <string name="login">LOGIN</string>
+    <string name="register">REGISTER</string>
+
+
+</resources>

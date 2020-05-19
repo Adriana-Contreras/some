@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Onboarding.pag2"
+    android:orientation="vertical"
+    android:background="@drawable/bg2">
+
+    <ImageView
+        android:id="@+id/imgWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="-150dp"
+        android:layout_marginEnd="-100dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img2" />
+
+    <TextView
+        android:id="@+id/textTitle2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/aclonica"
+        android:gravity="center"
+        android:text="@string/title2"
+        android:textColor="@color/colororange"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/textDesc2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/baumans"
+        android:gravity="center"
+        android:text="@string/desc222"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textDesc22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/baumans"
+        android:gravity="center"
+        android:text="@string/desc22222"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:id="@+id/layoutNext"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnskip2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|start"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="0.5"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/ovalo"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="@string/skip"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp">
+
+        </Button>
+
+        <TextView
+            android:id="@+id/btnnext2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="2dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusable="true"
+            android:fontFamily="@font/baumans"
+            android:gravity="bottom|end"
+            android:text="@string/next"
+            android:textColor="@android:color/holo_orange_light"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
