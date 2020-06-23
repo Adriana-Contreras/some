@@ -17,10 +17,8 @@ Manejo de la evidencias a lo largo del semestre en la materia de sistemas móvil
 
 **Hito 2**
 
-- Calculadora básica (Avance de clases)
-- Calculadora básica Final más splash (Avance de clases)
-- suma y resta (Avance de clases)
 - Procesual 
+- (Avance de clases)
 - Tarea Final hito2 
 
 **Hito 3**
